@@ -1,4 +1,4 @@
 FROM python:3.11
 WORKDIR /app
-copy . .
+COPY . .
 CMD ["python3","BasicCalculator.py"]
